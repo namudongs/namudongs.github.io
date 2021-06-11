@@ -31,6 +31,7 @@
 
     nav {
       z-index: 10;
+      font-family:'ROEHOE-CHAN'
     }
 
     a {
@@ -49,7 +50,8 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
-  font-weight: bold;
+  font-family:'ROEHOE-CHAN'
+// font-weight: bold;
   // z-index: 20;
 }
 
@@ -67,7 +69,6 @@
 
   .site-nav {
     margin-left: 0;
-
     @include breakpoint($small) {
       float: right;
     }

@@ -6,17 +6,18 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16 !default;
+$doc-font-size: 15 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: "NEXON Lv2 Gothic Light", Georgia, Times, serif !default;
+$sans-serif: "NEXON Lv2 Gothic Light", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "NEXON Lv2 Gothic Light", Monaco, Consolas, "Lucida Console", monospace !default;
+$cute: "NEXON Lv2 Gothic Light" !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -156,8 +157,8 @@ $max-width: $x-large !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width: 250px !default;
+$right-sidebar-width-wide: 275px !default;
 
 /*
    Other
