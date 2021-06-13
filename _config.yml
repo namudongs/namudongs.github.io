@@ -1,6 +1,6 @@
 # 기본 설명 https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
-minimal_mistakes_skin    : "dark" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -57,7 +57,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : false # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : " "
+  name             : "NAMUDONGS DEV💻"
   avatar           : "/assets/img/profile.png" # 프로필 이미지
-  bio              : "NAMUDONGS DEV💻<br/>고양이가 세상을 구한다🐱<br/>Cats Save the World🐈"
+  bio              : "고양이가 세상을 구한다🐱<br/>Cats Save the World🐈"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
