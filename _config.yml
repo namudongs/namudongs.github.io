@@ -1,6 +1,6 @@
 # 기본 설명 https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
-minimal_mistakes_skin    : "contrast" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -104,9 +104,9 @@ author:
   avatar           : "/assets/img/profile.png" # 프로필 이미지
   bio              : "고양이가 세상을 구한다🐱<br/>Cats Save the World🐈"
   links:
-    - label: "Email"
+    - label: "mail@namdev.kr"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:mail@namudongs.dev
+      url: mailto:mail@namdev.kr
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/namudongs"

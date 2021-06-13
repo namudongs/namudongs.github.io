@@ -1,4 +1,4 @@
-I"�<h3 id="문장-형식">문장 형식</h3>
+I"i<h3 id="문장-형식">문장 형식</h3>
 
 <p>영어의 문장 형식은 총 5가지가 있다.</p>
 
@@ -47,7 +47,7 @@
 
 <p>이 중 토익에 주로 출제되는 동사는 3형식 동사이다.</p>
 
-<p>토익 동사의 99%는 3형식 동사로 출제된다.</p>
+<p><code class="language-plaintext highlighter-rouge">토익 동사의 99%는 3형식 동사</code>로 출제된다.</p>
 
 <p>그럼 나머지 문장 형식들은 공부를 안해도 되냐면 그건 아니다.</p>
 
@@ -57,9 +57,9 @@
 
 <h4 id="1형식-동사">1형식 동사</h4>
 
-<p>1형식 동사는 완전한 자동사로 목적어나 보어가 필요하지 않다.</p>
+<p>1형식 동사는 <code class="language-plaintext highlighter-rouge">완전한 자동사</code>로 목적어나 보어가 필요하지 않다.</p>
 
-<p><code class="language-plaintext highlighter-rouge">Sales figures increased during the summer (전치사 during과 명사 the summer가 결합된 전명구)</code></p>
+<p>Sales figures increased <code class="language-plaintext highlighter-rouge">during the summer</code> (전치사 during과 명사 the summer가 결합된 전명구)</p>
 
 <p>위와 같이 1형식 동사의 뒤에 <code class="language-plaintext highlighter-rouge">전치사</code>+<code class="language-plaintext highlighter-rouge">명사</code>의 <code class="language-plaintext highlighter-rouge">전명구</code>를 통해 수식할 수 있다.</p>
 
@@ -114,7 +114,7 @@
 
 <h4 id="2형식-동사">2형식 동사</h4>
 
-<p>2형식 동사는 주격 보어를 가지는 자동사로 보어를 필요로 한다.</p>
+<p>2형식 동사는 주격 보어를 가지는 <code class="language-plaintext highlighter-rouge">자동사</code>로 보어를 필요로 한다.</p>
 
 <p>주격 보어 S.C는 <code class="language-plaintext highlighter-rouge">명사</code>와 <code class="language-plaintext highlighter-rouge">형용사</code>만 가능하다.</p>
 
@@ -161,7 +161,7 @@
 
 <p>3형식 동사의 수는 방대하며, 여러분들이 알고 있는 대다수의 동사는 3형식 동사일테니 따로 서술하지 않겠다.</p>
 
-<p>3형식 동사는 목적어를 필요로 하는 타동사이다.</p>
+<p>3형식 동사는 <code class="language-plaintext highlighter-rouge">목적어를 필요로 하는 타동사</code>이다.</p>
 
 <h4 id="4형식-동사">4형식 동사</h4>
 

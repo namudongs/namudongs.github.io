@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://namudongs.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://namudongs.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T19:07:33+09:00</updated><id>https://namudongs.github.io/feed.xml</id><title type="html">오늘도 나는 배운다</title><subtitle>오늘도 나는 배운다</subtitle><author><name>NAMUDONGS DEV💻</name></author><entry><title type="html">문장 형식</title><link href="https://namudongs.github.io/rc/rc_1/" rel="alternate" type="text/html" title="문장 형식" /><published>2021-06-13T00:00:00+09:00</published><updated>2021-06-13T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/rc_1</id><content type="html" xml:base="https://namudongs.github.io/rc/rc_1/">&lt;h3 id=&quot;문장-형식&quot;&gt;문장 형식&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://namudongs.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://namudongs.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T19:27:35+09:00</updated><id>https://namudongs.github.io/feed.xml</id><title type="html">오늘도 나는 배운다</title><subtitle>오늘도 나는 배운다</subtitle><author><name>NAMUDONGS DEV💻</name></author><entry><title type="html">RC Chapter 1. 문장 형식</title><link href="https://namudongs.github.io/rc/rc_1/" rel="alternate" type="text/html" title="RC Chapter 1. 문장 형식" /><published>2021-06-13T00:00:00+09:00</published><updated>2021-06-13T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/rc_1</id><content type="html" xml:base="https://namudongs.github.io/rc/rc_1/">&lt;h3 id=&quot;문장-형식&quot;&gt;문장 형식&lt;/h3&gt;
 
 &lt;p&gt;영어의 문장 형식은 총 5가지가 있다.&lt;/p&gt;
 
@@ -47,7 +47,7 @@
 
 &lt;p&gt;이 중 토익에 주로 출제되는 동사는 3형식 동사이다.&lt;/p&gt;
 
-&lt;p&gt;토익 동사의 99%는 3형식 동사로 출제된다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;토익 동사의 99%는 3형식 동사&lt;/code&gt;로 출제된다.&lt;/p&gt;
 
 &lt;p&gt;그럼 나머지 문장 형식들은 공부를 안해도 되냐면 그건 아니다.&lt;/p&gt;
 
@@ -57,9 +57,9 @@
 
 &lt;h4 id=&quot;1형식-동사&quot;&gt;1형식 동사&lt;/h4&gt;
 
-&lt;p&gt;1형식 동사는 완전한 자동사로 목적어나 보어가 필요하지 않다.&lt;/p&gt;
+&lt;p&gt;1형식 동사는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;완전한 자동사&lt;/code&gt;로 목적어나 보어가 필요하지 않다.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sales figures increased during the summer (전치사 during과 명사 the summer가 결합된 전명구)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Sales figures increased &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;during the summer&lt;/code&gt; (전치사 during과 명사 the summer가 결합된 전명구)&lt;/p&gt;
 
 &lt;p&gt;위와 같이 1형식 동사의 뒤에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;전치사&lt;/code&gt;+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;명사&lt;/code&gt;의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;전명구&lt;/code&gt;를 통해 수식할 수 있다.&lt;/p&gt;
 
@@ -114,7 +114,7 @@
 
 &lt;h4 id=&quot;2형식-동사&quot;&gt;2형식 동사&lt;/h4&gt;
 
-&lt;p&gt;2형식 동사는 주격 보어를 가지는 자동사로 보어를 필요로 한다.&lt;/p&gt;
+&lt;p&gt;2형식 동사는 주격 보어를 가지는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;자동사&lt;/code&gt;로 보어를 필요로 한다.&lt;/p&gt;
 
 &lt;p&gt;주격 보어 S.C는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;명사&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;형용사&lt;/code&gt;만 가능하다.&lt;/p&gt;
 
@@ -161,7 +161,7 @@
 
 &lt;p&gt;3형식 동사의 수는 방대하며, 여러분들이 알고 있는 대다수의 동사는 3형식 동사일테니 따로 서술하지 않겠다.&lt;/p&gt;
 
-&lt;p&gt;3형식 동사는 목적어를 필요로 하는 타동사이다.&lt;/p&gt;
+&lt;p&gt;3형식 동사는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;목적어를 필요로 하는 타동사&lt;/code&gt;이다.&lt;/p&gt;
 
 &lt;h4 id=&quot;4형식-동사&quot;&gt;4형식 동사&lt;/h4&gt;
 
@@ -263,4 +263,4 @@
       &lt;td&gt;가지다&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>NAMUDONGS DEV💻</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">영어의 문장 형식별 특징</summary></entry></feed>
+&lt;/table&gt;</content><author><name>NAMUDONGS DEV💻</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">토익의 문장 형식 종류와 특징</summary></entry></feed>
