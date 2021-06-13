@@ -1,10 +1,266 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://namudongs.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://namudongs.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T17:56:47+09:00</updated><id>https://namudongs.github.io/feed.xml</id><title type="html">오늘도 나는 배운다</title><subtitle>오늘도 나는 배운다</subtitle><author><name>NAMUDONGS DEV💻</name></author><entry><title type="html">RC Chapter 2. 동명사</title><link href="https://namudongs.github.io/rc/ving/" rel="alternate" type="text/html" title="RC Chapter 2. 동명사" /><published>2021-06-13T00:00:00+09:00</published><updated>2021-06-13T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/ving</id><content type="html" xml:base="https://namudongs.github.io/rc/ving/">&lt;p&gt;토익에 나오는 동명사는 다음과 같다.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;동명사&lt;/li&gt;
-  &lt;li&gt;현재분사형용사&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>NAMUDONGS DEV💻</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">토익에 나오는 동명사를 알아보자</summary></entry><entry><title type="html">RC Chapter 1. 문장 형식</title><link href="https://namudongs.github.io/rc/shape/" rel="alternate" type="text/html" title="RC Chapter 1. 문장 형식" /><published>2021-06-11T00:00:00+09:00</published><updated>2021-06-11T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/shape</id><content type="html" xml:base="https://namudongs.github.io/rc/shape/">&lt;p&gt;토익에 나오는 문장 형식은 총 5가지가 있다.&lt;br /&gt;
-1형식 S V&lt;br /&gt;
-2형식 S V S.C&lt;br /&gt;
-3형식 S V O&lt;br /&gt;
-4형식 S V SB STH&lt;br /&gt;
-5형식 S V O.C&lt;br /&gt;&lt;/p&gt;</content><author><name>NAMUDONGS DEV💻</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">토익에 나오는 문장 형식을 알아보자</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://namudongs.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://namudongs.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T19:07:33+09:00</updated><id>https://namudongs.github.io/feed.xml</id><title type="html">오늘도 나는 배운다</title><subtitle>오늘도 나는 배운다</subtitle><author><name>NAMUDONGS DEV💻</name></author><entry><title type="html">문장 형식</title><link href="https://namudongs.github.io/rc/rc_1/" rel="alternate" type="text/html" title="문장 형식" /><published>2021-06-13T00:00:00+09:00</published><updated>2021-06-13T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/rc_1</id><content type="html" xml:base="https://namudongs.github.io/rc/rc_1/">&lt;h3 id=&quot;문장-형식&quot;&gt;문장 형식&lt;/h3&gt;
+
+&lt;p&gt;영어의 문장 형식은 총 5가지가 있다.&lt;/p&gt;
+
+&lt;p&gt;문장 형식은 동사에 의해 결정되며 다음과 같다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;구분&lt;/th&gt;
+      &lt;th&gt;형식&lt;/th&gt;
+      &lt;th&gt;형태&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;자동사&lt;/td&gt;
+      &lt;td&gt;1형식&lt;/td&gt;
+      &lt;td&gt;S(주어) V(동사)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;2형식&lt;/td&gt;
+      &lt;td&gt;S(주어) V(동사) S.C(주격보어)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;타동사&lt;/td&gt;
+      &lt;td&gt;3형식&lt;/td&gt;
+      &lt;td&gt;S(주어) V(동사) O(목적어)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;4형식&lt;/td&gt;
+      &lt;td&gt;S(주어) V(동사) SB(사람) SB(사물)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;5형식&lt;/td&gt;
+      &lt;td&gt;S(주어) V(동사) O.C(목적격보어)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;이 중 토익에 주로 출제되는 동사는 3형식 동사이다.&lt;/p&gt;
+
+&lt;p&gt;토익 동사의 99%는 3형식 동사로 출제된다.&lt;/p&gt;
+
+&lt;p&gt;그럼 나머지 문장 형식들은 공부를 안해도 되냐면 그건 아니다.&lt;/p&gt;
+
+&lt;p&gt;고난도 문제들은 3형식이 아닌 1,2,4,5 형식으로 출제되기에 고득점을 위해선 모든 문장 형식을 공부해야 한다.&lt;/p&gt;
+
+&lt;p&gt;우리는 고득점이 목표이므로 1,2,4,5 형식 동사들을 모두 공부하도록 하겠다.&lt;/p&gt;
+
+&lt;h4 id=&quot;1형식-동사&quot;&gt;1형식 동사&lt;/h4&gt;
+
+&lt;p&gt;1형식 동사는 완전한 자동사로 목적어나 보어가 필요하지 않다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sales figures increased during the summer (전치사 during과 명사 the summer가 결합된 전명구)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;위와 같이 1형식 동사의 뒤에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;전치사&lt;/code&gt;+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;명사&lt;/code&gt;의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;전명구&lt;/code&gt;를 통해 수식할 수 있다.&lt;/p&gt;
+
+&lt;h5 id=&quot;전치사가-정해진-1형식-동사&quot;&gt;전치사가 정해진 1형식 동사&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;단어&lt;/th&gt;
+      &lt;th&gt;뜻&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;respond to&lt;/td&gt;
+      &lt;td&gt;응답하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;object to&lt;/td&gt;
+      &lt;td&gt;반대하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;refrain from ving&lt;/td&gt;
+      &lt;td&gt;~하는 것을 삼가다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;specialize in&lt;/td&gt;
+      &lt;td&gt;~를 전문으로 하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;inquire about&lt;/td&gt;
+      &lt;td&gt;~을 질문하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;react to&lt;/td&gt;
+      &lt;td&gt;~에 반응하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;comply with&lt;/td&gt;
+      &lt;td&gt;~을 준수하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;contribute to&lt;/td&gt;
+      &lt;td&gt;~에 기여하다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&quot;전치사가-정해지지-않은-1형식-동사&quot;&gt;전치사가 정해지지 않은 1형식 동사&lt;/h5&gt;
+
+&lt;p&gt;전치사의 뜻에 맞춰 아무거나 쓰면 된다.&lt;/p&gt;
+
+&lt;h4 id=&quot;2형식-동사&quot;&gt;2형식 동사&lt;/h4&gt;
+
+&lt;p&gt;2형식 동사는 주격 보어를 가지는 자동사로 보어를 필요로 한다.&lt;/p&gt;
+
+&lt;p&gt;주격 보어 S.C는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;명사&lt;/code&gt;와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;형용사&lt;/code&gt;만 가능하다.&lt;/p&gt;
+
+&lt;h5 id=&quot;대표적인-2형식-동사&quot;&gt;대표적인 2형식 동사&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;단어&lt;/th&gt;
+      &lt;th&gt;뜻&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;be&lt;/td&gt;
+      &lt;td&gt;~이다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;become&lt;/td&gt;
+      &lt;td&gt;되다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;seem&lt;/td&gt;
+      &lt;td&gt;~처럼 보이다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;remain&lt;/td&gt;
+      &lt;td&gt;남아있다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;look&lt;/td&gt;
+      &lt;td&gt;~처럼 보이다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sound&lt;/td&gt;
+      &lt;td&gt;~처럼 들리다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;3형식-동사&quot;&gt;3형식 동사&lt;/h4&gt;
+
+&lt;p&gt;모든 동사의 95%는 3형식 동사이며, 토익 동사의 99%는 3형식 동사이다.&lt;/p&gt;
+
+&lt;p&gt;3형식 동사의 수는 방대하며, 여러분들이 알고 있는 대다수의 동사는 3형식 동사일테니 따로 서술하지 않겠다.&lt;/p&gt;
+
+&lt;p&gt;3형식 동사는 목적어를 필요로 하는 타동사이다.&lt;/p&gt;
+
+&lt;h4 id=&quot;4형식-동사&quot;&gt;4형식 동사&lt;/h4&gt;
+
+&lt;h5 id=&quot;대표적인-4형식-동사&quot;&gt;대표적인 4형식 동사&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;단어&lt;/th&gt;
+      &lt;th&gt;뜻&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;give&lt;/td&gt;
+      &lt;td&gt;주다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;offer&lt;/td&gt;
+      &lt;td&gt;제공하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;send&lt;/td&gt;
+      &lt;td&gt;보내다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bring&lt;/td&gt;
+      &lt;td&gt;가져다 주다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cost&lt;/td&gt;
+      &lt;td&gt;비용이 들다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lend&lt;/td&gt;
+      &lt;td&gt;빌려주다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tell&lt;/td&gt;
+      &lt;td&gt;말하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;award&lt;/td&gt;
+      &lt;td&gt;수여하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grant&lt;/td&gt;
+      &lt;td&gt;허가하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ask&lt;/td&gt;
+      &lt;td&gt;묻다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;buy&lt;/td&gt;
+      &lt;td&gt;사주다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;guarantee&lt;/td&gt;
+      &lt;td&gt;보장하다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;5형식-동사&quot;&gt;5형식 동사&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;단어&lt;/th&gt;
+      &lt;th&gt;3형식 뜻&lt;/th&gt;
+      &lt;th&gt;5형식 뜻&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;keep&lt;/td&gt;
+      &lt;td&gt;준수하다, 저장하다&lt;/td&gt;
+      &lt;td&gt;유지하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;find&lt;/td&gt;
+      &lt;td&gt;찾다&lt;/td&gt;
+      &lt;td&gt;생각하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;make&lt;/td&gt;
+      &lt;td&gt;만들다&lt;/td&gt;
+      &lt;td&gt;만들다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;consider&lt;/td&gt;
+      &lt;td&gt;고려하다&lt;/td&gt;
+      &lt;td&gt;생각하다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;have&lt;/td&gt;
+      &lt;td&gt;가지다&lt;/td&gt;
+      &lt;td&gt;가지다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>NAMUDONGS DEV💻</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">영어의 문장 형식별 특징</summary></entry></feed>
