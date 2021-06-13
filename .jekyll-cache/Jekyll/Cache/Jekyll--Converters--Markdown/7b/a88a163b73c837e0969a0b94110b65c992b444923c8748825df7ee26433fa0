@@ -1,4 +1,4 @@
-I"X)<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I"�+<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -476,6 +476,41 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/rc/rc_2/" rel="permalink">RC Chapter 2. 동사의 형태와 종류
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">토익에 나오는 동사의 형태와 종류
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/rc/rc_1/" rel="permalink">RC Chapter 1. 문장 형식
 </a>
       
@@ -501,7 +536,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">토익의 문장 형식 종류와 특징
+    <p class="archive__item-excerpt" itemprop="description">토익에 나오는 문장 형식 종류와 특징
 </p>
   </article>
 </div>

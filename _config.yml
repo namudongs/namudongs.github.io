@@ -100,9 +100,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "NAMUDONGS DEV💻"
-  avatar           : "/assets/img/profile.png" # 프로필 이미지
-  bio              : "고양이가 세상을 구한다🐱<br/>Cats Save the World🐈"
+  name             : "시작이 반이다👊"
+  avatar           : "/assets/img/profile.jpg" # 프로필 이미지
+  bio              : "Well begun is half done.<br>-Aristoteles"
   links:
     - label: "mail@namdev.kr"
       icon: "fas fa-fw fa-envelope-square"
