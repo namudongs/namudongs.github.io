@@ -7,7 +7,7 @@ locale                   : "ko-KR"
 title                    : "오늘도 나는 배운다" # Meta 태그에 들어가는 영역 , masthead_title등이 없으면 기본값으로 나온다.
 title_separator          : "&#124;" # 타이틀 사이 구분자 <title>Welcome to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어갑니다.
 # subtitle                 : "Version 1.0" # 타이틀 아래에 나올 작은 글씨
-name                     : "NAMDEV" # 맨 하단 이름 찍히는 영역
+name                     : "NAMDONG" # 맨 하단 이름 찍히는 영역
 description              : "오늘도 나는 배운다" # Meta 태그에 들어가는 영역
 url                      : "https://namudongs.github.io" # GitBlog 호스트 주소
 baseurl                  : # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
@@ -104,9 +104,9 @@ author:
   avatar           : "/assets/img/profile.jpg" # 프로필 이미지
   bio              : "Well begun is half done.<br>-Aristoteles"
   links:
-    - label: "mail@namdev.kr"
+    - label: "mail@namdong.dev"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:mail@namdev.kr
+      url: mailto:mail@namdong.dev
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/namudongs"
@@ -119,7 +119,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:mail@namudongs.dev
+      url: mailto:mail@namdong.dev
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/namudongs"
