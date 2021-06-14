@@ -13,7 +13,7 @@
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">
-        🇺🇸 토익
+        토익 +850
         </span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -21,31 +21,31 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "lc" %}
-                        <li><a href="/categories/lc" class="">Listening Comprehension({{category[1].size}})</a></li>
+                        <li><a href="/categories/lc" class="">Listening Comprehension ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "rc" %}
-                        <li><a href="/categories/rc" class="">Reading Comprehension({{category[1].size}})</a></li>
+                        <li><a href="/categories/rc" class="">Reading Comprehension ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "voca" %}
-                        <li><a href="/categories/voca" class="">📚 VOCA({{category[1].size}})</a></li>
+                        <li><a href="/categories/voca" class="">Vocabulary ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">
-        웹 프론트엔드
+        오늘도 배우자
         </span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "LANG-A" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "blog" %}
+                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

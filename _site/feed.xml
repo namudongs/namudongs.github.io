@@ -1,4 +1,420 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://namudongs.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://namudongs.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T22:33:18+09:00</updated><id>https://namudongs.github.io/feed.xml</id><title type="html">오늘도 나는 배운다</title><subtitle>오늘도 나는 배운다</subtitle><author><name>시작이 반이다👊</name></author><entry><title type="html">RC Chapter 1. 문장 형식</title><link href="https://namudongs.github.io/rc/rc_1/" rel="alternate" type="text/html" title="RC Chapter 1. 문장 형식" /><published>2021-06-13T00:00:00+09:00</published><updated>2021-06-13T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/rc_1</id><content type="html" xml:base="https://namudongs.github.io/rc/rc_1/">&lt;h3 id=&quot;문장-형식&quot;&gt;문장 형식&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>오늘도 나는 배운다</title>
+    <description>오늘도 나는 배운다</description>
+    <link>https://namudongs.github.io/</link>
+    <atom:link href="https://namudongs.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 15 Jun 2021 02:32:01 +0900</pubDate>
+    <lastBuildDate>Tue, 15 Jun 2021 02:32:01 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>RC Chapter 3. 형용사</title>
+        <description>&lt;h3 id=&quot;형용사-문제유형&quot;&gt;형용사 문제유형&lt;/h3&gt;
+
+&lt;p&gt;토익에서 형용사의 문제유형은 다음과 같다&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;품사&lt;/li&gt;
+  &lt;li&gt;콜로케이션 (해석)&lt;/li&gt;
+  &lt;li&gt;형용사+전치사&lt;/li&gt;
+  &lt;li&gt;비슷한 형태의 형용사&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;품사&quot;&gt;품사&lt;/h4&gt;
+
+&lt;p&gt;Under more ——– circumstances, the board of trustees would have approved the budget increase, but this year it was not possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) favorable&lt;/code&gt;			(B) favorably			(C) favor			(D) in favor&lt;/p&gt;
+
+&lt;p&gt;Even though Smithon Electronics’ second quarter was not ——–, the company plans to invest large sums on research.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) profitable&lt;/code&gt;			(B) profiting			(C) profitability			(D) profitably&lt;/p&gt;
+
+&lt;h4 id=&quot;콜로케이션-해석&quot;&gt;콜로케이션 (해석)&lt;/h4&gt;
+
+&lt;p&gt;The Southwell guide discusses the most ——– ways to train yourself to be a great salesperson.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) effective&lt;/code&gt;			(B) reluctant			(C) concerned			(D) contained&lt;/p&gt;
+
+&lt;h4 id=&quot;비슷한-형태의-형용사&quot;&gt;비슷한 형태의 형용사&lt;/h4&gt;
+
+&lt;p&gt;To help the sales representatives advance their ——– speaking skills, Mr. Cho will provide a training workshop on Thursday.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) persuasive&lt;/code&gt;			(B) persuades			(C) persuadable			(D) persuasively&lt;/p&gt;
+
+&lt;p&gt;(A) persuasive 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득력 있는&lt;/code&gt; 이라는 뜻의 형용사이다.&lt;/p&gt;
+
+&lt;p&gt;(B) persuades 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득하다&lt;/code&gt; 라는 뜻의 동사의 3인칭 단수형이다.&lt;/p&gt;
+
+&lt;p&gt;(C) persuadable 은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득할 수 있는&lt;/code&gt; 이라는 뜻의 형용사이다.&lt;/p&gt;
+
+&lt;p&gt;(D) persuasively 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득력 있게&lt;/code&gt; 라는 뜻의 부사이다.&lt;/p&gt;
+
+&lt;p&gt;위 예제를 보면 알 수 있듯이 persuade 의 활용형은 굉장히 많다. 위 예제에서만 두개의 형용사가 있으며, 보기의 형용사 외에도 persuasible &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득될 수 있는&lt;/code&gt; 라는 뜻의 수동태형 형용사도 존재한다.&lt;/p&gt;
+
+&lt;p&gt;이처럼 비슷해 보이지만 뜻이 다른 형용사들이 영어에는 굉장히 많으므로, 이를 암기해야 이런 함정문제에서 정답을 찾을 수 있다. 대표적인 비슷한 형태의 형용사는 다음과 같다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;단어&lt;/th&gt;
+      &lt;th&gt;뜻&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;comparable to&lt;/td&gt;
+      &lt;td&gt;~에 필적하는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;compatible with&lt;/td&gt;
+      &lt;td&gt;~와 호환 가능한&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;complimentary&lt;/td&gt;
+      &lt;td&gt;무료의, 칭찬하는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;complementary&lt;/td&gt;
+      &lt;td&gt;보완적인&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;comprehensible&lt;/td&gt;
+      &lt;td&gt;이해할 수 있는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;comprehensive&lt;/td&gt;
+      &lt;td&gt;포괄적인&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;confident&lt;/td&gt;
+      &lt;td&gt;확신하는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;confidential&lt;/td&gt;
+      &lt;td&gt;기밀의, 비밀의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;economic&lt;/td&gt;
+      &lt;td&gt;경제의&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;economical&lt;/td&gt;
+      &lt;td&gt;경제적인, 절약하는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;informed&lt;/td&gt;
+      &lt;td&gt;박식한, 현명한&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;informative&lt;/td&gt;
+      &lt;td&gt;유익한&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;prospective&lt;/td&gt;
+      &lt;td&gt;유망한, 잠재적인&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;prosperous&lt;/td&gt;
+      &lt;td&gt;번영하는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;reliant&lt;/td&gt;
+      &lt;td&gt;의존적인&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;reliable&lt;/td&gt;
+      &lt;td&gt;신뢰할 만한&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;responsible&lt;/td&gt;
+      &lt;td&gt;책임이 있는&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;responsive&lt;/td&gt;
+      &lt;td&gt;민감하게 반응하는&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;필수-형용사-자리---2형식-5형식의-보어&quot;&gt;필수 형용사 자리 - 2형식, 5형식의 보어&lt;/h3&gt;
+
+&lt;h4 id=&quot;2형식&quot;&gt;2형식&lt;/h4&gt;
+
+&lt;p&gt;The receptionist is very &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kind&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The report seems &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;useful&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The prices are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reasonable&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;5형식&quot;&gt;5형식&lt;/h4&gt;
+
+&lt;p&gt;I consider prices of items &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resonable&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The CFO found the contract &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;succesful&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;수식어-형용사-거품&quot;&gt;수식어 형용사 (거품)&lt;/h4&gt;
+
+&lt;p&gt;Green kitchen offers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fresh&lt;/code&gt; dishes.&lt;/p&gt;
+
+&lt;p&gt;Mr. Kim owns a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;big&lt;/code&gt; supermarket.&lt;/p&gt;
+
+&lt;h4 id=&quot;전명구-형용사부사&quot;&gt;전명구 (형용사/부사)&lt;/h4&gt;
+
+&lt;p&gt;Items &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;on the shelf&lt;/code&gt; need to be changed.&lt;/p&gt;
+
+&lt;h4 id=&quot;뒤에서-수식하는-형용사-두-단어-이상의-형용사&quot;&gt;뒤에서 수식하는 형용사 (두 단어 이상의 형용사)&lt;/h4&gt;
+
+&lt;p&gt;We need an item &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attractive to customers&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You need a permit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;written by the supervisor&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;부사의-위치&quot;&gt;부사의 위치&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사,&lt;/code&gt; S V&lt;/p&gt;
+
+&lt;p&gt;Occasionally, we fail to perform some tasks.&lt;/p&gt;
+
+&lt;p&gt;조동사 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사&lt;/code&gt; 동사원형&lt;/p&gt;
+
+&lt;p&gt;Our department can soon meet the sales target.&lt;/p&gt;
+
+&lt;p&gt;S &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사&lt;/code&gt; V&lt;/p&gt;
+
+&lt;p&gt;We recently expanded into the Asia market.&lt;/p&gt;
+
+&lt;p&gt;be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사&lt;/code&gt; S.C&lt;/p&gt;
+
+&lt;p&gt;She was slightly surprised at the news.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Jun 2021 00:00:00 +0900</pubDate>
+        <link>https://namudongs.github.io/rc/rc_3/</link>
+        <guid isPermaLink="true">https://namudongs.github.io/rc/rc_3/</guid>
+        
+        <category>toeic</category>
+        
+        <category>study</category>
+        
+        
+        <category>rc</category>
+        
+      </item>
+    
+      <item>
+        <title>Github Pages에 개인 도메인 등록하기</title>
+        <description>&lt;h3 id=&quot;개인-도메인-구매하기&quot;&gt;개인 도메인 구매하기&lt;/h3&gt;
+
+&lt;p&gt;Github Pages 블로그에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;개인 도메인(example.com..,)&lt;/code&gt;을 연결하기 위해서는 먼저 개인 도메인이 있어야 합니다. 개인 도메인을 구매하는 방법은 여러가지가 있겠지만 보통은 도메인 등록업체를 통해 구매하는 방법이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;국내 도메인 등록업체로는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;가비아, 카페24, 호스팅케이알&lt;/code&gt; 등이 있습니다. 전 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Google Domains&lt;/code&gt; 를 이용해 구매하여 사용중입니다. 개인 도메인 구매에 관한 자세한 내용은 따로 글을 쓰도록 하겠습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;구매한-개인-도메인-연결하기&quot;&gt;구매한 개인 도메인 연결하기&lt;/h3&gt;
+
+&lt;p&gt;도메인 등록업체를 통해 도메인을 구매하게 되면, 보통은 도메인 등록업체에서 자체 네임서버를 제공하여 DNS 서비스를 이용합니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cloudflare&lt;/code&gt;나 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DNSEver&lt;/code&gt;와 같은 네임서버를 이용할 수도 있습니다. 이것을 왜 얘기하냐면 개인 도메인을 Github Pages에 연결하기 위해서는 이런 DNS 연결이 필요하기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;전 Google Domains 에서 구매하였으므로 Google Domains 의 도메인 설정화면에서 설명하겠습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-도메인-설정화면&quot;&gt;1. 도메인 설정화면&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/1.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Domains 설정화면으로 이동하면 이렇게 뜹니다. 왼쪽의 메뉴에서 DNS로 이동합니다. 다른 도메인 등록업체에서도 대부분 이렇게 도메인 관리 페이지가 있습니다. 해당 페이지에서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DNS 서비스 메뉴&lt;/code&gt;로 이동하면 됩니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-도메인-dns-설정&quot;&gt;2. 도메인 DNS 설정&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/2.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;DNS 메뉴로 이동하면 이렇게 현재 사용하고 있는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;네임서버&lt;/code&gt;가 뜹니다. 전 구글에서 제공하는 기본 네임서버를 이용하니 넘어가도록 하겠습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-도메인-dns-연결&quot;&gt;3. 도메인 DNS 연결&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/3.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;스크롤을 내리면 이렇게 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DNS 레코드&lt;/code&gt;를 설정할 수 있습니다. 검색 엔진 설정이라던지 이메일 사용시 MX 연결 등을 위 DNS 레코드 설정에서 할 수 있으니 알아두면 좋습니다. Github Pages 로 연결하는 설정은 아래와 같이 해주면 됩니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;이름(서브 도메인)(Host)&lt;/th&gt;
+      &lt;th&gt;유형(A, MX ..)(Type)&lt;/th&gt;
+      &lt;th&gt;데이터(IPv4 ..)(Value)&lt;/th&gt;
+      &lt;th&gt;TTL(Time to Live)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;@&lt;/td&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;185.199.109.153&lt;/td&gt;
+      &lt;td&gt;Automatic (1h)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;www&lt;/td&gt;
+      &lt;td&gt;CNAME&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;USERNAME&lt;/code&gt;.github.io&lt;/td&gt;
+      &lt;td&gt;Automatic (1h)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;위에서 USERNAME 의 경우 자신이 GitHub Pages 를 개설할때 만든 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Repository 이름&lt;/code&gt;을 적어주면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;설정을 다 했다면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Github&lt;/code&gt; 으로 이동합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;4-github&quot;&gt;4. Github&lt;/h4&gt;
+
+&lt;p&gt;Github 으로 이동했다면 자신의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GitHub Pages Repository&lt;/code&gt; 로 이동하여 상단의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Settings&lt;/code&gt; 를 클릭합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/4.png&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Settings 화면에서 좌측 메뉴 하단의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Pages&lt;/code&gt; 로 이동하게 되면 위와 같은 화면이 뜹니다. 전 현재 개인 도메인을 연결한 상태라 여러분들은 다른 화면이 뜰수도 있습니다. 밑의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Custom domains&lt;/code&gt; 란에 자신이 구입한 개인 도메인을 입력한 후 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Save&lt;/code&gt; 버튼을 눌러주면 됩니다. DNS 연결이 제대로 되었다면 큰 문제 없이 설정이 완료될겁니다.&lt;/p&gt;
+
+&lt;p&gt;도메인 연결이 되었다면 잠시 시간이 지난 후 밑의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Enforce HTTPS&lt;/code&gt; 에 체크해줍니다. Https 를 사용하는 옵션입니다. 보통 도메인 연결 직후엔 되지 않으나 3~4분 후엔 활성화가 되므로 기다렸다가 체크해주면 됩니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;페이지-접속하기&quot;&gt;페이지 접속하기&lt;/h3&gt;
+
+&lt;p&gt;연결엔 잠시 시간이 걸릴 수 있으니 설정 직후 개인 도메인으로 접속하면 페이지가 나타나지 않을 수도 있습니다. 조금만 기다리면 정상적으로 페이지가 표시될 겁니다. 주의해야 할 점은 도메인 기간이 만료되면 페이지 접속이 되지 않을 수 있으니 도메인을 미리 연장하거나 만료 이후 위의 GitHub Pages 설정 화면에서 설정한 Custom Domains 를 Remove 해주어야 합니다. 이러면 개인 도메인으론 접속할 수 없고, 처음 제공된 USERNAME.github.io 링크로 접속해야 합니다.&lt;/p&gt;
+
+&lt;p&gt;GitHub Pages 에서 제공하는 github.io 도메인도 꽤 좋은 도메인이고, 개인 도메인 구매시엔 보통 10$ 내외의 적지 않은 비용이 필요하니 딱히 개인 도메인이 있거나, 필요한 경우가 아니라면 굳이 개인 도메인을 사용할 필요가 없습니다.&lt;/p&gt;
+
+&lt;p&gt;그래도 개인 도메인을 사용하는것이 유용할 때도 많고, 개인 도메인을 소유하고 있다면 메일 주소로도 사용이 가능하니 개발자라면 하나정도 가지고 있는것도 좋다고 생각합니다.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Jun 2021 00:00:00 +0900</pubDate>
+        <link>https://namudongs.github.io/blog/blog_1/</link>
+        <guid isPermaLink="true">https://namudongs.github.io/blog/blog_1/</guid>
+        
+        <category>blog</category>
+        
+        <category>study</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>RC Chapter 2. 동사의 형태와 종류</title>
+        <description>&lt;h3 id=&quot;동사의-형태와-종류&quot;&gt;동사의 형태와 종류&lt;/h3&gt;
+
+&lt;h4 id=&quot;be-동사&quot;&gt;be 동사&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;be&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+      &lt;th&gt;예제&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;am&lt;/td&gt;
+      &lt;td&gt;주어가&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;I am a student.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;is&lt;/td&gt;
+      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3인칭 단수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;A microphone is on the shelf.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;are&lt;/td&gt;
+      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;They are a valuable asset to tour firm.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;was&lt;/td&gt;
+      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;단수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;The stockholder’s opposition was strong.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;were&lt;/td&gt;
+      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;과거&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Employees were reluctant to attend the workshop.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;조동사동사원형&quot;&gt;조동사+동사원형&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;will&lt;/td&gt;
+      &lt;td&gt;can&lt;/td&gt;
+      &lt;td&gt;may&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;should&lt;/td&gt;
+      &lt;td&gt;must&lt;/td&gt;
+      &lt;td&gt;have to&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;had to&lt;/td&gt;
+      &lt;td&gt;had better&lt;/td&gt;
+      &lt;td&gt;used to&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;does not&lt;/td&gt;
+      &lt;td&gt;do not&lt;/td&gt;
+      &lt;td&gt;did not&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;현재시제&quot;&gt;현재시제&lt;/h4&gt;
+
+&lt;p&gt;현재 시제에는 두가지 용법이 존재한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;습관&lt;/li&gt;
+  &lt;li&gt;일반적인 사실&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;단수 주어 + 동사 s/es&lt;/p&gt;
+
+&lt;p&gt;복수 주어 + 동사원형&lt;/p&gt;
+
+&lt;h4 id=&quot;분사구문&quot;&gt;분사구문&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;현재분사 ving&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;과거분사 p.p&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S   be   ving/p.p&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;하지만 p.p는 have/has p.p 현재완료 구문도 존재한다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0900</pubDate>
+        <link>https://namudongs.github.io/rc/rc_2/</link>
+        <guid isPermaLink="true">https://namudongs.github.io/rc/rc_2/</guid>
+        
+        <category>toeic</category>
+        
+        <category>study</category>
+        
+        
+        <category>rc</category>
+        
+      </item>
+    
+      <item>
+        <title>RC Chapter 1. 문장 형식</title>
+        <description>&lt;h3 id=&quot;문장-형식&quot;&gt;문장 형식&lt;/h3&gt;
 
 &lt;p&gt;영어의 문장 형식은 총 5가지가 있다.&lt;/p&gt;
 
@@ -259,105 +675,21 @@
       &lt;td&gt;가지다&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>시작이 반이다👊</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">토익에 나오는 문장 형식 종류와 특징</summary></entry><entry><title type="html">RC Chapter 2. 동사의 형태와 종류</title><link href="https://namudongs.github.io/rc/rc_2/" rel="alternate" type="text/html" title="RC Chapter 2. 동사의 형태와 종류" /><published>2021-06-13T00:00:00+09:00</published><updated>2021-06-13T00:00:00+09:00</updated><id>https://namudongs.github.io/rc/rc_2</id><content type="html" xml:base="https://namudongs.github.io/rc/rc_2/">&lt;h3 id=&quot;동사의-형태와-종류&quot;&gt;동사의 형태와 종류&lt;/h3&gt;
-
-&lt;h4 id=&quot;be-동사&quot;&gt;be 동사&lt;/h4&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;be&lt;/th&gt;
-      &lt;th&gt;설명&lt;/th&gt;
-      &lt;th&gt;예제&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;am&lt;/td&gt;
-      &lt;td&gt;주어가&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;I am a student.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;is&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3인칭 단수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;A microphone is on the shelf.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;are&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;They are a valuable asset to tour firm.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;was&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;단수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;The stockholder’s opposition was strong.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;were&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;과거&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Employees were reluctant to attend the workshop.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h4 id=&quot;조동사동사원형&quot;&gt;조동사+동사원형&lt;/h4&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;will&lt;/td&gt;
-      &lt;td&gt;can&lt;/td&gt;
-      &lt;td&gt;may&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;should&lt;/td&gt;
-      &lt;td&gt;must&lt;/td&gt;
-      &lt;td&gt;have to&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;had to&lt;/td&gt;
-      &lt;td&gt;had better&lt;/td&gt;
-      &lt;td&gt;used to&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;does not&lt;/td&gt;
-      &lt;td&gt;do not&lt;/td&gt;
-      &lt;td&gt;did not&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;현재시제&quot;&gt;현재시제&lt;/h4&gt;
-
-&lt;p&gt;현재 시제에는 두가지 용법이 존재한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;습관&lt;/li&gt;
-  &lt;li&gt;일반적인 사실&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;단수 주어 + 동사 s/es&lt;/p&gt;
-
-&lt;p&gt;복수 주어 + 동사원형&lt;/p&gt;
-
-&lt;h4 id=&quot;분사구문&quot;&gt;분사구문&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;현재분사 ving&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;과거분사 p.p&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S   be   ving/p.p&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;하지만 p.p는 have/has p.p 현재완료 구문도 존재한다.&lt;/p&gt;</content><author><name>시작이 반이다👊</name></author><category term="rc" /><category term="toeic" /><category term="study" /><summary type="html">토익에 나오는 동사의 형태와 종류</summary></entry></feed>
+</description>
+        <pubDate>Sun, 13 Jun 2021 00:00:00 +0900</pubDate>
+        <link>https://namudongs.github.io/rc/rc_1/</link>
+        <guid isPermaLink="true">https://namudongs.github.io/rc/rc_1/</guid>
+        
+        <category>toeic</category>
+        
+        <category>study</category>
+        
+        
+        <category>rc</category>
+        
+      </item>
+    
+  </channel>
+</rss>
