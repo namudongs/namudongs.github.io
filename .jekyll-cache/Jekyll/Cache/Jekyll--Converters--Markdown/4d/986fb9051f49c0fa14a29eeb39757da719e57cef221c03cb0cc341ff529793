@@ -1,4 +1,4 @@
-I"B1<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I">1<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -476,7 +476,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/rc/rc_3/" rel="permalink">RC Chapter 3. 형용사
+        <a href="/rc/rc3/" rel="permalink">RC Chapter 3. 형용사
 </a>
       
     </h2>
@@ -511,7 +511,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blog/blog_1/" rel="permalink">Github Pages에 개인 도메인 등록하기
+        <a href="/blog/blog1/" rel="permalink">Github Pages에 개인 도메인 등록하기
 </a>
       
     </h2>
@@ -546,7 +546,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/rc/rc_2/" rel="permalink">RC Chapter 2. 동사의 형태와 종류
+        <a href="/rc/rc2/" rel="permalink">RC Chapter 2. 동사의 형태와 종류
 </a>
       
     </h2>
@@ -581,7 +581,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/rc/rc_1/" rel="permalink">RC Chapter 1. 문장 형식
+        <a href="/rc/rc1/" rel="permalink">RC Chapter 1. 문장 형식
 </a>
       
     </h2>
