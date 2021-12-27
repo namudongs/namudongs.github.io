@@ -1,0 +1,30 @@
+I"�
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/data/rc3/">Github Test</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2021.06.15
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#data" class="page__taxonomy-item-category" rel="tag">data</a>
+                    
+                    
+                    <a href="/tags/#data" class="page__taxonomy-item-tag" rel="tag">data</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+:ET

@@ -1,0 +1,869 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>홍정모의 따배씨 | 오늘도 나는 배운다</title>
+<meta name="description" content="하드웨어와 소프트웨어">
+
+
+  <meta name="author" content="시작이 반이다👊">
+  
+  <meta property="article:author" content="시작이 반이다👊">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="오늘도 나는 배운다">
+<meta property="og:title" content="홍정모의 따배씨">
+<meta property="og:url" content="https://namudongs.github.io/c/rc1/">
+
+
+  <meta property="og:description" content="하드웨어와 소프트웨어">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-12-27T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2021-12-27T00:00:00+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://namudongs.github.io/c/rc1/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "NAMDONG",
+      "url": "https://namudongs.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="오늘도 나는 배운다 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/logos/openbookemj.png" alt="오늘도 나는 배운다"></a>
+        
+        <a class="site-title" href="/">
+          오늘도 나는 배운다
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://namudongs.github.io">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://namudongs.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#c" itemprop="item"><span itemprop="name">C</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">홍정모의 따배씨</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/img/profile.jpg" alt="시작이 반이다👊" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">시작이 반이다👊</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Well begun is half done.<br />-Aristoteles</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:mail@namdong.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">mail@namdong.dev</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+
+  <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">토글 메뉴</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">4</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">
+        프로그래밍
+        </span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                        <li><a href="/categories/c" class="">홍정모의 따배씨 (2)</a></li>
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/data" class="">자료구조 (1)</a></li>
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        <span class="nav__sub-title">
+        오늘도 배우자
+        </span>
+            <ul>
+                
+                    
+                
+                    
+                        <li><a href="/categories/blog" class="">블로그 (1)</a></li>
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+      </li>
+  </ul>
+</nav>
+
+
+
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="홍정모의 따배씨">
+    <meta itemprop="description" content="  하드웨어와 소프트웨어">
+    <meta itemprop="datePublished" content="2021-12-27T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2021-12-27T00:00:00+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">홍정모의 따배씨
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
+              <ul class="toc__menu"><li><a href="#문장-형식">문장 형식</a><ul><li><a href="#1형식-동사">1형식 동사</a><ul><li><a href="#전치사가-정해진-1형식-동사">전치사가 정해진 1형식 동사</a></li><li><a href="#전치사가-정해지지-않은-1형식-동사">전치사가 정해지지 않은 1형식 동사</a></li></ul></li><li><a href="#2형식-동사">2형식 동사</a></li><li><a href="#3형식-동사">3형식 동사</a></li><li><a href="#4형식-동사">4형식 동사</a></li><li><a href="#5형식-동사">5형식 동사</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h3 id="문장-형식">문장 형식</h3>
+
+<p>영어의 문장 형식은 총 5가지가 있다.</p>
+
+<p>문장 형식은 동사에 의해 결정되며 다음과 같다.</p>
+
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>형식</th>
+      <th>형태</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>자동사</td>
+      <td>1형식</td>
+      <td>S(주어) V(동사)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>2형식</td>
+      <td>S(주어) V(동사) S.C(주격보어)</td>
+    </tr>
+    <tr>
+      <td>타동사</td>
+      <td>3형식</td>
+      <td>S(주어) V(동사) O(목적어)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>4형식</td>
+      <td>S(주어) V(동사) SB(사람) SB(사물)</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>5형식</td>
+      <td>S(주어) V(동사) O.C(목적격보어)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p>이 중 토익에 주로 출제되는 동사는 3형식 동사이다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">토익 동사의 99%는 3형식 동사</code>로 출제된다.</p>
+
+<p>그럼 나머지 문장 형식들은 공부를 안해도 되냐면 그건 아니다.</p>
+
+<p>고난도 문제들은 3형식이 아닌 1,2,4,5 형식으로 출제되기에 고득점을 위해선 모든 문장 형식을 공부해야 한다.</p>
+
+<p>우리는 고득점이 목표이므로 1,2,4,5 형식 동사들을 모두 공부하도록 하겠다.</p>
+
+<h4 id="1형식-동사">1형식 동사</h4>
+
+<p>1형식 동사는 <code class="language-plaintext highlighter-rouge">완전한 자동사</code>로 목적어나 보어가 필요하지 않다.</p>
+
+<p>Sales figures increased <code class="language-plaintext highlighter-rouge">during the summer</code> (전치사 during과 명사 the summer가 결합된 전명구)</p>
+
+<p>위와 같이 1형식 동사의 뒤에 <code class="language-plaintext highlighter-rouge">전치사</code>+<code class="language-plaintext highlighter-rouge">명사</code>의 <code class="language-plaintext highlighter-rouge">전명구</code>를 통해 수식할 수 있다.</p>
+
+<h5 id="전치사가-정해진-1형식-동사">전치사가 정해진 1형식 동사</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>단어</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>respond to</td>
+      <td>응답하다</td>
+    </tr>
+    <tr>
+      <td>object to</td>
+      <td>반대하다</td>
+    </tr>
+    <tr>
+      <td>refrain from ving</td>
+      <td>~하는 것을 삼가다</td>
+    </tr>
+    <tr>
+      <td>specialize in</td>
+      <td>~를 전문으로 하다</td>
+    </tr>
+    <tr>
+      <td>inquire about</td>
+      <td>~을 질문하다</td>
+    </tr>
+    <tr>
+      <td>react to</td>
+      <td>~에 반응하다</td>
+    </tr>
+    <tr>
+      <td>comply with</td>
+      <td>~을 준수하다</td>
+    </tr>
+    <tr>
+      <td>contribute to</td>
+      <td>~에 기여하다</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="전치사가-정해지지-않은-1형식-동사">전치사가 정해지지 않은 1형식 동사</h5>
+
+<p>전치사의 뜻에 맞춰 아무거나 쓰면 된다.</p>
+
+<h4 id="2형식-동사">2형식 동사</h4>
+
+<p>2형식 동사는 주격 보어를 가지는 <code class="language-plaintext highlighter-rouge">자동사</code>로 보어를 필요로 한다.</p>
+
+<p>주격 보어 S.C는 <code class="language-plaintext highlighter-rouge">명사</code>와 <code class="language-plaintext highlighter-rouge">형용사</code>만 가능하다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>단어</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>be</td>
+      <td>~이다</td>
+    </tr>
+    <tr>
+      <td>become</td>
+      <td>되다</td>
+    </tr>
+    <tr>
+      <td>seem</td>
+      <td>~처럼 보이다</td>
+    </tr>
+    <tr>
+      <td>remain</td>
+      <td>남아있다</td>
+    </tr>
+    <tr>
+      <td>look</td>
+      <td>~처럼 보이다</td>
+    </tr>
+    <tr>
+      <td>Sound</td>
+      <td>~처럼 들리다</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="3형식-동사">3형식 동사</h4>
+
+<p>모든 동사의 95%는 3형식 동사이며, 토익 동사의 99%는 3형식 동사이다.</p>
+
+<p>3형식 동사의 수는 방대하며, 여러분들이 알고 있는 대다수의 동사는 3형식 동사일테니 따로 서술하지 않겠다.</p>
+
+<p>3형식 동사는 <code class="language-plaintext highlighter-rouge">목적어를 필요로 하는 타동사</code>이다.</p>
+
+<h4 id="4형식-동사">4형식 동사</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>단어</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>give</td>
+      <td>주다</td>
+    </tr>
+    <tr>
+      <td>offer</td>
+      <td>제공하다</td>
+    </tr>
+    <tr>
+      <td>send</td>
+      <td>보내다</td>
+    </tr>
+    <tr>
+      <td>bring</td>
+      <td>가져다 주다</td>
+    </tr>
+    <tr>
+      <td>cost</td>
+      <td>비용이 들다</td>
+    </tr>
+    <tr>
+      <td>lend</td>
+      <td>빌려주다</td>
+    </tr>
+    <tr>
+      <td>tell</td>
+      <td>말하다</td>
+    </tr>
+    <tr>
+      <td>award</td>
+      <td>수여하다</td>
+    </tr>
+    <tr>
+      <td>grant</td>
+      <td>허가하다</td>
+    </tr>
+    <tr>
+      <td>ask</td>
+      <td>묻다</td>
+    </tr>
+    <tr>
+      <td>buy</td>
+      <td>사주다</td>
+    </tr>
+    <tr>
+      <td>guarantee</td>
+      <td>보장하다</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="5형식-동사">5형식 동사</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>단어</th>
+      <th>3형식 뜻</th>
+      <th>5형식 뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>keep</td>
+      <td>준수하다, 저장하다</td>
+      <td>유지하다</td>
+    </tr>
+    <tr>
+      <td>find</td>
+      <td>찾다</td>
+      <td>생각하다</td>
+    </tr>
+    <tr>
+      <td>make</td>
+      <td>만들다</td>
+      <td>만들다</td>
+    </tr>
+    <tr>
+      <td>consider</td>
+      <td>고려하다</td>
+      <td>생각하다</td>
+    </tr>
+    <tr>
+      <td>have</td>
+      <td>가지다</td>
+      <td>가지다</td>
+    </tr>
+  </tbody>
+</table>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#c" class="page__taxonomy-item" rel="tag">c</a><span class="sep">, </span>
+    
+      <a href="/tags/#study" class="page__taxonomy-item" rel="tag">study</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#c" class="page__taxonomy-item" rel="tag">c</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-12-27">December 27, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/data/rc3/" class="pagination--pager" title="Github Test
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="mailto:mail@namdong.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://github.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 NAMDONG. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'namudongs/namudongs.github.com');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'boxy-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>
