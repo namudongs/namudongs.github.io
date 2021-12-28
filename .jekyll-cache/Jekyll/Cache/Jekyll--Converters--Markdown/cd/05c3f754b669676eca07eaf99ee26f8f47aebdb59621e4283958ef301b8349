@@ -1,4 +1,4 @@
-I"$1<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I"!1<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -476,7 +476,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/c/rc1/" rel="permalink">홍정모의 따배씨
+        <a href="/c/c1/" rel="permalink">따라하며 배우는 C언어 1
 </a>
       
     </h2>
@@ -501,9 +501,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">
-  하드웨어와 소프트웨어
-
+    <p class="archive__item-excerpt" itemprop="description">홍정모의 따배씨
 </p>
   </article>
 </div>
@@ -513,7 +511,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/rc/rc3/" rel="permalink">Github Test
+        <a href="/data/rc3/" rel="permalink">Github Test
 </a>
       
     </h2>
@@ -583,7 +581,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/rc/rc2/" rel="permalink">RC Chapter 2. 동사의 형태와 종류
+        <a href="/c/rc2/" rel="permalink">RC Chapter 2. 동사의 형태와 종류
 </a>
       
     </h2>
