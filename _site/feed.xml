@@ -5,350 +5,118 @@
     <description>오늘도 나는 배운다</description>
     <link>https://namudongs.github.io/</link>
     <atom:link href="https://namudongs.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Dec 2021 16:26:34 +0900</pubDate>
-    <lastBuildDate>Tue, 28 Dec 2021 16:26:34 +0900</lastBuildDate>
+    <pubDate>Mon, 21 Mar 2022 23:52:57 +0900</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2022 23:52:57 +0900</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>따라하며 배우는 C언어 1</title>
-        <description>&lt;h3 id=&quot;컴퓨터는-왜-이진법binary-numerical-system-을-사용할까&quot;&gt;컴퓨터는 왜 이진법(Binary numerical system) 을 사용할까&lt;/h3&gt;
+        <title>C 프로그래밍. 1</title>
+        <description>&lt;h3 id=&quot;프로그래밍기초-과목-3주차-실습-결과&quot;&gt;프로그래밍기초 과목 3주차 실습 결과&lt;/h3&gt;
 
-&lt;p&gt;이진법이란 0과 1의 두 숫자를 사용하여 표현하는 방법이다.
-많은 트랜지스터들이 스위치 형식으로 복잡한 CPU를 작동시킨다.&lt;/p&gt;
+&lt;p&gt;도전 문제&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;ol&gt;
+  &lt;li&gt;한 번의 prinf() 호출로 변수 perimeter와 area의 값이 동시의 출력되도록 변경하라.&lt;/li&gt;
+  &lt;li&gt;변수들을 한 줄에 모두 선언하여 보자.&lt;/li&gt;
+  &lt;li&gt;w와 h의 값을 사용자로부터 받도록 변경하여 보자. %lf를 사용한다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h4 id=&quot;앨런-튜링&quot;&gt;앨런 튜링&lt;/h4&gt;
+&lt;p&gt;실습 결과&lt;/p&gt;
 
-&lt;p&gt;튜링 머신을 개발한 사람&lt;/p&gt;
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;perimeter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-&lt;h4 id=&quot;폰-노이만&quot;&gt;폰 노이만&lt;/h4&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;사각형의 너비를 입력하시오:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-&lt;p&gt;원자폭탄을 개발한 사람&lt;/p&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;사각형의 높이를 입력하시오:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-&lt;hr /&gt;
+    &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;perimeter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-&lt;h3 id=&quot;내장형-프로그램-방식의-컴퓨터-stored-program-computer&quot;&gt;내장형 프로그램 방식의 컴퓨터 (Stored-program computer)&lt;/h3&gt;
-
-&lt;p&gt;현대적 컴퓨터의 구조를 정립한 구조를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;폰 노이만 구조&lt;/code&gt;라고 부른다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;입력 &amp;gt; CPU/메모리 처리 &amp;gt; 출력&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;폰 노이만 구조에서 개선되어 현대적 컴퓨터의 구조가 만들어졌다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Single System Compute Bus&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;컴퓨터-메모리의-기본-구조&quot;&gt;컴퓨터 메모리의 기본 구조&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;연산은 CPU에서 하고 정보를 저장하는 것은 메모리에서 한다.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;1차적으로 메모리에 중요한 내용들이 저장이 되어 있다가, CPU가 필요한 것들을 하나하나 가져다가 연산을 하고 연산 결과를 메모리에 돌려주고, 메모리에 저장을 한다.&lt;/p&gt;
-
-&lt;p&gt;CPU &amp;gt; 캐시 메모리 &amp;gt; 주기억장치 - 메모리 (캐시 메모리란, 자주 쓰는 정보를 저장하여 속도 향상)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;순차-접근-sequential-access&quot;&gt;순차 접근 (Sequential Access)&lt;/h4&gt;
-
-&lt;p&gt;예전의 자기(Magnetic) 테이프 같은 곳에서 쓰였다.
-메모리의 저장된 데이터를 순차적으로 하나하나 다 찾는 방식
-순차적으로 모두 찾아야 해서 속도가 매우 느리며, 현대 컴퓨터에선 사용하지 않는 방식&lt;/p&gt;
-
-&lt;h4 id=&quot;임의-접근-random-access&quot;&gt;임의 접근 (Random Access)&lt;/h4&gt;
-
-&lt;p&gt;현대 컴퓨터에서 사용하는 방식, RAM(Random Access Memory)
-순차적으로 찾을 필요 없이 바로바로 접근이 가능한 방식&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;cpu의-기본-구조&quot;&gt;CPU의 기본 구조&lt;/h3&gt;
-
-&lt;h4 id=&quot;프로그램이-시작되는-과정&quot;&gt;프로그램이 시작되는 과정&lt;/h4&gt;
-
-&lt;p&gt;CPU &amp;lt;&amp;gt; 주기억장치-메모리 &amp;lt; 보조기억장치(HDD,SSD)&lt;/p&gt;
-
-&lt;h4 id=&quot;언어&quot;&gt;언어&lt;/h4&gt;
-
-&lt;h5 id=&quot;고수준-프로그래밍-언어-high-level-programming-language&quot;&gt;고수준 프로그래밍 언어 (High level programming language)&lt;/h5&gt;
-
-&lt;p&gt;A = 3
-B = 4
-C = A + B&lt;/p&gt;
-
-&lt;h5 id=&quot;어셈블리-언어-assembly-language&quot;&gt;어셈블리 언어 (Assembly language)&lt;/h5&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;니모닉 (Mnemonic)&lt;/code&gt;
-LOAD			[10]
-ADD			  [11]
-STORE		  [12]&lt;/p&gt;
-
-&lt;h5 id=&quot;기계어-machine-code&quot;&gt;기계어 (Machine code)&lt;/h5&gt;
-
-&lt;p&gt;100110	0000001010
-110011	0000001011
-111010	0000001100&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;cpu-명령어-집합-instruction-set&quot;&gt;CPU 명령어 집합 (Instruction Set)&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ADD - 숫자 두 개를 더한다&lt;/li&gt;
-  &lt;li&gt;COMPARE - 숫자들끼리 비교한다&lt;/li&gt;
-  &lt;li&gt;IN - 키보드 같은 입력장치로부터 정보를 입력받는다&lt;/li&gt;
-  &lt;li&gt;JUMP - 지정된 메모리 주소로 점프한다&lt;/li&gt;
-  &lt;li&gt;JUMP IF - 조건에 따라 점프한다&lt;/li&gt;
-  &lt;li&gt;LOAD - 메모리에서 CPU로 정보를 가져온다&lt;/li&gt;
-  &lt;li&gt;OUT - 출력 장치로 정보를 출력한다&lt;/li&gt;
-  &lt;li&gt;STORE - 메모리에 정보를 저장한다&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;cpu의-구성-요소들&quot;&gt;CPU의 구성 요소들&lt;/h4&gt;
-
-&lt;p&gt;제어 장치 (Control Unit) &amp;lt;&amp;gt; 여러가지 레지스터들 (Registers)
-산술 논리 장치 (Arithmetic Logic Unit) &amp;lt;&amp;gt; 여러가지 레지스터들 (Registers)&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;레지스터 종류&lt;/th&gt;
-      &lt;th&gt;기능&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;주소 레지스터&lt;/td&gt;
-      &lt;td&gt;읽거나 쓸 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메모리 주소&lt;/code&gt; 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;프로그램 카운터&lt;/td&gt;
-      &lt;td&gt;다음 명령어의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메모리 주소&lt;/code&gt; 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;데이터 레지스터&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메모리&lt;/code&gt;에서 읽어온 데이터 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;명령어 레지스터&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;메모리&lt;/code&gt;에서 읽어온 명령어 저장&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;어큐뮬레이터&lt;/td&gt;
-      &lt;td&gt;연산에 사용되는 데이터 저장&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;cpu가-일하는-방법&quot;&gt;CPU가 일하는 방법&lt;/h4&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;사각형의 넓이: %lf&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;사각형의 둘레: %lf&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;perimeter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
-        <pubDate>Mon, 27 Dec 2021 00:00:00 +0900</pubDate>
-        <link>https://namudongs.github.io/c/c1/</link>
-        <guid isPermaLink="true">https://namudongs.github.io/c/c1/</guid>
+        <pubDate>Mon, 21 Mar 2022 00:00:00 +0900</pubDate>
+        <link>https://namudongs.github.io/cpg/cpg1/</link>
+        <guid isPermaLink="true">https://namudongs.github.io/cpg/cpg1/</guid>
         
-        <category>c</category>
+        <category>cpg</category>
         
         <category>study</category>
         
         
-        <category>c</category>
+        <category>cpg</category>
         
       </item>
     
       <item>
-        <title>Github Test</title>
-        <description>&lt;h3 id=&quot;형용사-문제유형&quot;&gt;형용사 문제유형&lt;/h3&gt;
+        <title>Github Pages Setup Guide</title>
+        <description>&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
 
-&lt;p&gt;토익에서 형용사의 문제유형은 다음과 같다&lt;/p&gt;
+&lt;h4 id=&quot;githubcom--new-repository&quot;&gt;Github.com &amp;gt; New ‘repository’&lt;/h4&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;품사&lt;/li&gt;
-  &lt;li&gt;콜로케이션 (해석)&lt;/li&gt;
-  &lt;li&gt;형용사+전치사&lt;/li&gt;
-  &lt;li&gt;비슷한 형태의 형용사&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Local clone ‘repository’&lt;/p&gt;
 
-&lt;h4 id=&quot;품사&quot;&gt;품사&lt;/h4&gt;
+&lt;p&gt;if use terminal&lt;/p&gt;
 
-&lt;p&gt;Under more ——– circumstances, the board of trustees would have approved the budget increase, but this year it was not possible.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/username/username.github.io
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) favorable&lt;/code&gt;			(B) favorably			(C) favor			(D) in favor&lt;/p&gt;
+&lt;h4 id=&quot;new-indexhtml&quot;&gt;New ‘index.html’&lt;/h4&gt;
 
-&lt;p&gt;Even though Smithon Electronics’ second quarter was not ——–, the company plans to invest large sums on research.&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Hello World&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I&apos;m hosted with GitHub Pages.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) profitable&lt;/code&gt;			(B) profiting			(C) profitability			(D) profitably&lt;/p&gt;
+&lt;h4 id=&quot;commit--sync&quot;&gt;Commit &amp;amp; Sync&lt;/h4&gt;
 
-&lt;h4 id=&quot;콜로케이션-해석&quot;&gt;콜로케이션 (해석)&lt;/h4&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;username.github.io
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nt&quot;&gt;--all&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Initial commit&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The Southwell guide discusses the most ——– ways to train yourself to be a great salesperson.&lt;/p&gt;
+&lt;h4 id=&quot;work-test&quot;&gt;Work Test&lt;/h4&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) effective&lt;/code&gt;			(B) reluctant			(C) concerned			(D) contained&lt;/p&gt;
+&lt;p&gt;Go ‘http://username.github.io’&lt;/p&gt;
 
-&lt;h4 id=&quot;비슷한-형태의-형용사&quot;&gt;비슷한 형태의 형용사&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;reference ‘https://poiemaweb.com/jekyll-basics’&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;To help the sales representatives advance their ——– speaking skills, Mr. Cho will provide a training workshop on Thursday.&lt;/p&gt;
+&lt;h3 id=&quot;jekyll-guide&quot;&gt;Jekyll Guide&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(A) persuasive&lt;/code&gt;			(B) persuades			(C) persuadable			(D) persuasively&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll new username.github.io
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;username.github.io
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;(A) persuasive 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득력 있는&lt;/code&gt; 이라는 뜻의 형용사이다.&lt;/p&gt;
+&lt;p&gt;if change ‘_config.yml’, you must need restart serve&lt;/p&gt;
 
-&lt;p&gt;(B) persuades 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득하다&lt;/code&gt; 라는 뜻의 동사의 3인칭 단수형이다.&lt;/p&gt;
-
-&lt;p&gt;(C) persuadable 은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득할 수 있는&lt;/code&gt; 이라는 뜻의 형용사이다.&lt;/p&gt;
-
-&lt;p&gt;(D) persuasively 는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득력 있게&lt;/code&gt; 라는 뜻의 부사이다.&lt;/p&gt;
-
-&lt;p&gt;위 예제를 보면 알 수 있듯이 persuade 의 활용형은 굉장히 많다. 위 예제에서만 두개의 형용사가 있으며, 보기의 형용사 외에도 persuasible &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;설득될 수 있는&lt;/code&gt; 라는 뜻의 수동태형 형용사도 존재한다.&lt;/p&gt;
-
-&lt;p&gt;이처럼 비슷해 보이지만 뜻이 다른 형용사들이 영어에는 굉장히 많으므로, 이를 암기해야 이런 함정문제에서 정답을 찾을 수 있다. 대표적인 비슷한 형태의 형용사는 다음과 같다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;단어&lt;/th&gt;
-      &lt;th&gt;뜻&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;comparable to&lt;/td&gt;
-      &lt;td&gt;~에 필적하는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;compatible with&lt;/td&gt;
-      &lt;td&gt;~와 호환 가능한&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;complimentary&lt;/td&gt;
-      &lt;td&gt;무료의, 칭찬하는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;complementary&lt;/td&gt;
-      &lt;td&gt;보완적인&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;comprehensible&lt;/td&gt;
-      &lt;td&gt;이해할 수 있는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;comprehensive&lt;/td&gt;
-      &lt;td&gt;포괄적인&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;confident&lt;/td&gt;
-      &lt;td&gt;확신하는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;confidential&lt;/td&gt;
-      &lt;td&gt;기밀의, 비밀의&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;economic&lt;/td&gt;
-      &lt;td&gt;경제의&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;economical&lt;/td&gt;
-      &lt;td&gt;경제적인, 절약하는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;informed&lt;/td&gt;
-      &lt;td&gt;박식한, 현명한&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;informative&lt;/td&gt;
-      &lt;td&gt;유익한&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;prospective&lt;/td&gt;
-      &lt;td&gt;유망한, 잠재적인&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;prosperous&lt;/td&gt;
-      &lt;td&gt;번영하는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;reliant&lt;/td&gt;
-      &lt;td&gt;의존적인&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;reliable&lt;/td&gt;
-      &lt;td&gt;신뢰할 만한&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;responsible&lt;/td&gt;
-      &lt;td&gt;책임이 있는&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;responsive&lt;/td&gt;
-      &lt;td&gt;민감하게 반응하는&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;필수-형용사-자리---2형식-5형식의-보어&quot;&gt;필수 형용사 자리 - 2형식, 5형식의 보어&lt;/h3&gt;
-
-&lt;h4 id=&quot;2형식&quot;&gt;2형식&lt;/h4&gt;
-
-&lt;p&gt;The receptionist is very &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kind&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The report seems &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;useful&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The prices are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reasonable&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;5형식&quot;&gt;5형식&lt;/h4&gt;
-
-&lt;p&gt;I consider prices of items &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resonable&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The CFO found the contract &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;succesful&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;수식어-형용사-거품&quot;&gt;수식어 형용사 (거품)&lt;/h4&gt;
-
-&lt;p&gt;Green kitchen offers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fresh&lt;/code&gt; dishes.&lt;/p&gt;
-
-&lt;p&gt;Mr. Kim owns a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;big&lt;/code&gt; supermarket.&lt;/p&gt;
-
-&lt;h4 id=&quot;전명구-형용사부사&quot;&gt;전명구 (형용사/부사)&lt;/h4&gt;
-
-&lt;p&gt;Items &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;on the shelf&lt;/code&gt; need to be changed.&lt;/p&gt;
-
-&lt;h4 id=&quot;뒤에서-수식하는-형용사-두-단어-이상의-형용사&quot;&gt;뒤에서 수식하는 형용사 (두 단어 이상의 형용사)&lt;/h4&gt;
-
-&lt;p&gt;We need an item &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attractive to customers&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;You need a permit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;written by the supervisor&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;부사의-위치&quot;&gt;부사의 위치&lt;/h4&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사,&lt;/code&gt; S V&lt;/p&gt;
-
-&lt;p&gt;Occasionally, we fail to perform some tasks.&lt;/p&gt;
-
-&lt;p&gt;조동사 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사&lt;/code&gt; 동사원형&lt;/p&gt;
-
-&lt;p&gt;Our department can soon meet the sales target.&lt;/p&gt;
-
-&lt;p&gt;S &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사&lt;/code&gt; V&lt;/p&gt;
-
-&lt;p&gt;We recently expanded into the Asia market.&lt;/p&gt;
-
-&lt;p&gt;be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;부사&lt;/code&gt; S.C&lt;/p&gt;
-
-&lt;p&gt;She was slightly surprised at the news.&lt;/p&gt;
+&lt;p&gt;all done, connect http://localhost:4000 and work test.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 15 Jun 2021 00:00:00 +0900</pubDate>
-        <link>https://namudongs.github.io/data/rc3/</link>
-        <guid isPermaLink="true">https://namudongs.github.io/data/rc3/</guid>
+        <pubDate>Mon, 21 Mar 2022 00:00:00 +0900</pubDate>
+        <link>https://namudongs.github.io/blog/blog2/</link>
+        <guid isPermaLink="true">https://namudongs.github.io/blog/blog2/</guid>
         
-        <category>data</category>
-        
-        <category>study</category>
+        <category>blog</category>
         
         
-        <category>data</category>
+        <category>blog</category>
         
       </item>
     
@@ -441,124 +209,6 @@ STORE		  [12]&lt;/p&gt;
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>RC Chapter 2. 동사의 형태와 종류</title>
-        <description>&lt;h3 id=&quot;동사의-형태와-종류&quot;&gt;동사의 형태와 종류&lt;/h3&gt;
-
-&lt;h4 id=&quot;be-동사&quot;&gt;be 동사&lt;/h4&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;be&lt;/th&gt;
-      &lt;th&gt;설명&lt;/th&gt;
-      &lt;th&gt;예제&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;am&lt;/td&gt;
-      &lt;td&gt;주어가&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;I am a student.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;is&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3인칭 단수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;A microphone is on the shelf.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;are&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;They are a valuable asset to tour firm.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;was&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;단수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;현재&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;The stockholder’s opposition was strong.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;were&lt;/td&gt;
-      &lt;td&gt;주어가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;복수&lt;/code&gt;, 시제가 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;과거&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;Employees were reluctant to attend the workshop.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;조동사동사원형&quot;&gt;조동사+동사원형&lt;/h4&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt; &lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;will&lt;/td&gt;
-      &lt;td&gt;can&lt;/td&gt;
-      &lt;td&gt;may&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;should&lt;/td&gt;
-      &lt;td&gt;must&lt;/td&gt;
-      &lt;td&gt;have to&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;had to&lt;/td&gt;
-      &lt;td&gt;had better&lt;/td&gt;
-      &lt;td&gt;used to&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;does not&lt;/td&gt;
-      &lt;td&gt;do not&lt;/td&gt;
-      &lt;td&gt;did not&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;현재시제&quot;&gt;현재시제&lt;/h4&gt;
-
-&lt;p&gt;현재 시제에는 두가지 용법이 존재한다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;습관&lt;/li&gt;
-  &lt;li&gt;일반적인 사실&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;단수 주어 + 동사 s/es&lt;/p&gt;
-
-&lt;p&gt;복수 주어 + 동사원형&lt;/p&gt;
-
-&lt;h4 id=&quot;분사구문&quot;&gt;분사구문&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;현재분사 ving&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;과거분사 p.p&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;S   be   ving/p.p&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;하지만 p.p는 have/has p.p 현재완료 구문도 존재한다.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 13 Jun 2021 00:00:00 +0900</pubDate>
-        <link>https://namudongs.github.io/c/rc2/</link>
-        <guid isPermaLink="true">https://namudongs.github.io/c/rc2/</guid>
-        
-        <category>c</category>
-        
-        <category>study</category>
-        
-        
-        <category>c</category>
         
       </item>
     

@@ -1,0 +1,36 @@
+I"
+<h3 id="프로그래밍기초-과목-3주차-실습-결과">프로그래밍기초 과목 3주차 실습 결과</h3>
+
+<p>도전 문제</p>
+
+<ol>
+  <li>한 번의 prinf() 호출로 변수 perimeter와 area의 값이 동시의 출력되도록 변경하라.</li>
+  <li>변수들을 한 줄에 모두 선언하여 보자.</li>
+  <li>w와 h의 값을 사용자로부터 받도록 변경하여 보자. %lf를 사용한다.</li>
+</ol>
+
+<p>실습 결과</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">double</span> <span class="n">area</span><span class="p">,</span> <span class="n">perimeter</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">;</span>
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"사각형의 너비를 입력하시오:"</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">);</span>
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"사각형의 높이를 입력하시오:"</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">);</span>
+
+    <span class="n">area</span> <span class="o">=</span> <span class="n">x</span><span class="o">*</span><span class="n">y</span><span class="p">;</span>
+    <span class="n">perimeter</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="p">);</span>
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"사각형의 넓이: %lf</span><span class="se">\n</span><span class="s">사각형의 둘레: %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">area</span><span class="p">,</span> <span class="n">perimeter</span><span class="p">);</span>
+    
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+:ET

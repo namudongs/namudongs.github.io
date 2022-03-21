@@ -1,0 +1,34 @@
+I"r<h3 id="setup">Setup</h3>
+
+<ol>
+  <li>
+    <p>Github.com &gt; New ‘repository’</p>
+  </li>
+  <li>
+    <p>Local clone ‘repository’</p>
+
+    <p>if use terminal</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/username/username.github.io
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>New ‘index.html’</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;p&gt;</span>I'm hosted with GitHub Pages.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Commit &amp; Sync</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div>    </div>
+  </li>
+</ol>
+
+:ET

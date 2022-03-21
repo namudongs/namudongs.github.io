@@ -1,0 +1,43 @@
+I"�<h3 id="setup">Setup</h3>
+
+<ol>
+  <li>
+    <p>Github.com &gt; New ‘repository’</p>
+  </li>
+  <li>
+    <p>Local clone ‘repository’</p>
+
+    <p>if use terminal</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/username/username.github.io
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>New ‘index.html’</p>
+
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;p&gt;</span>I'm hosted with GitHub Pages.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Commit &amp; Sync</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cd </span>username.github.io
+<span class="nv">$ </span>git add <span class="nt">--all</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
+<span class="nv">$ </span>git push <span class="nt">-u</span> origin master
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Work Test</p>
+
+    <p>Go ‘http://username.github.io’</p>
+  </li>
+</ol>
+
+:ET
