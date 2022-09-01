@@ -1,4 +1,4 @@
-I"�4<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
+I",7<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="/sitemap.xml">XML version</a> available for digesting as well.</p>
 
 <h2>Pages</h2>
 
@@ -537,6 +537,41 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
+        <a href="/py/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B8%B0%EC%B4%88/" rel="permalink">파이썬 기초
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          40 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">파이썬 &amp; 프로그래밍 소개
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
         <a href="/cpg/C%EC%96%B8%EC%96%B4%EA%B8%B0%EC%B4%88/" rel="permalink">C언어 기초
 </a>
       
@@ -555,7 +590,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          최대 1 분 소요
+          16 분 소요
         
       </span>
     
@@ -590,7 +625,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          최대 1 분 소요
+          9 분 소요
         
       </span>
     
@@ -625,7 +660,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          2 분 소요
+          44 분 소요
         
       </span>
     

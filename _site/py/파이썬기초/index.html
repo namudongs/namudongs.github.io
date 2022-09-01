@@ -1,0 +1,774 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>파이썬 기초 | 오늘도 나는 배운다</title>
+<meta name="description" content="파이썬 &amp; 프로그래밍 소개">
+
+
+  <meta name="author" content="시작이 반이다👊">
+  
+  <meta property="article:author" content="시작이 반이다👊">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="오늘도 나는 배운다">
+<meta property="og:title" content="파이썬 기초">
+<meta property="og:url" content="https://namudongs.github.io/py/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B8%B0%EC%B4%88/">
+
+
+  <meta property="og:description" content="파이썬 &amp; 프로그래밍 소개">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-09-01T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2022-09-01T00:00:00+09:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://namudongs.github.io/py/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B8%B0%EC%B4%88/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "NAMDONG",
+      "url": "https://namudongs.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="오늘도 나는 배운다 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/favicon.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/logos/openbookemj.png" alt="오늘도 나는 배운다"></a>
+        
+        <a class="site-title" href="/">
+          오늘도 나는 배운다
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://namudongs.github.io">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://namudongs.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#py" itemprop="item"><span itemprop="name">Py</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">파이썬 기초</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/img/profile.jpg" alt="시작이 반이다👊" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">시작이 반이다👊</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Well begun is half done.<br />-Aristoteles</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:mail@namdong.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">mail@namdong.dev</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+
+  <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">토글 메뉴</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">4</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      <li>
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">
+        📚 프로그래밍
+        </span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                
+                    
+                        <li><a href="/categories/cpg" class="">C (1)</a></li>
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                        <li><a href="/categories/data" class="">PYTHON (1)</a></li>
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        <span class="nav__sub-title">
+        🖥 컴퓨터 공학
+        </span>
+            <ul>
+                
+                    
+                        <li><a href="/categories/blog" class="">ETC-BLOG (2)</a></li>
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+      </li>
+  </ul>
+</nav>
+
+
+
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="파이썬 기초">
+    <meta itemprop="description" content="파이썬 &amp; 프로그래밍 소개">
+    <meta itemprop="datePublished" content="2022-09-01T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2022-09-01T00:00:00+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">파이썬 기초
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          43 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
+              <ul class="toc__menu"><li><a href="#프로그래밍-기초">프로그래밍 기초</a><ul><li><a href="#프로그래밍이란-">프로그래밍이란 ?</a></li><li><a href="#코딩-공부-하는-법">코딩 공부 하는 법</a></li><li><a href="#좋은-프로그램이란-">좋은 프로그램이란 ?</a></li><li><a href="#파이썬의-장점">파이썬의 장점</a></li><li><a href="#파이썬의-활용-분야">파이썬의 활용 분야</a></li></ul></li><li><a href="#파이썬-기초-문법">파이썬 기초 문법</a><ul><li><a href="#print-문">print 문</a><ul><li><a href="#----등의-부호로-기본-출력">’’, “”, ‘’’, “””, 등의 부호로 기본 출력</a></li><li><a href="#separator-옵션-사용">separator 옵션 사용</a></li><li><a href="#end-옵션-사용">end 옵션 사용</a></li><li><a href="#file-옵션-사용">file 옵션 사용</a></li><li><a href="#format-옵션-사용d-s-f">format 옵션 사용(d, s, f)`</a></li></ul></li><li><a href="#s">%s</a></li><li><a href="#d">%d</a></li><li><a href="#f">%f</a></li></ul></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="프로그래밍-기초">프로그래밍 기초</h2>
+
+<h3 id="프로그래밍이란-">프로그래밍이란 ?</h3>
+<p>프로그래밍 언어 : C, C++, Java, Python, VB, Pascal, Ruby …
+영문 (인간) -&gt; 컴파일러 -&gt; 기계어 -&gt; CPU -&gt; 실행 -&gt; 결과물</p>
+
+<h3 id="코딩-공부-하는-법">코딩 공부 하는 법</h3>
+<ol>
+  <li>디버깅 -&gt; <code class="language-plaintext highlighter-rouge">내 의도</code>에 맞게 프로그램 실행 확인</li>
+  <li>알고리즘, 자료구조 -&gt; <code class="language-plaintext highlighter-rouge">코딩테스트</code> 필수</li>
+  <li>다른 사람의 소스코드 참조 -&gt; <code class="language-plaintext highlighter-rouge">Github</code> -&gt; 오픈소스</li>
+  <li>주석 -&gt; 코드의 이해 증가</li>
+  <li><code class="language-plaintext highlighter-rouge">자기가 만들고 싶은 프로그램</code>을 정확하게 정의</li>
+</ol>
+
+<h3 id="좋은-프로그램이란-">좋은 프로그램이란 ?</h3>
+<ol>
+  <li>코드의 가독성</li>
+  <li>코드의 길이 -&gt; 가독성과 연관</li>
+  <li>변수의 이름</li>
+  <li>중복 코드 최소화</li>
+</ol>
+
+<h3 id="파이썬의-장점">파이썬의 장점</h3>
+<p>간결하고 쉽다
+무료, <code class="language-plaintext highlighter-rouge">오픈소스의 강력함</code>, 빠른 개발 속도 (생산성)
+협업 수월</p>
+
+<h3 id="파이썬의-활용-분야">파이썬의 활용 분야</h3>
+<p>GUI 프로그래밍 : pyQT
+웹 프로그래밍 : flask, django …
+데이터분석, 머신러닝
+IOT : 라즈베리파이 (초소형 미니PC)</p>
+
+<h2 id="파이썬-기초-문법">파이썬 기초 문법</h2>
+
+<h3 id="print-문">print 문</h3>
+<h5 id="----등의-부호로-기본-출력">’’, “”, ‘’’, “””, 등의 부호로 기본 출력</h5>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'Python Start!'</span><span class="p">)</span>
+<span class="c1"># = Python Start!
+</span><span class="k">print</span><span class="p">(</span><span class="s">"Python Start!"</span><span class="p">)</span>
+<span class="c1"># = Python Start!
+</span><span class="k">print</span><span class="p">(</span><span class="s">"""Python Start!"""</span><span class="p">)</span>
+<span class="c1"># = Python Start!
+</span><span class="k">print</span><span class="p">(</span><span class="s">'''Python Start!'''</span><span class="p">)</span>
+<span class="c1"># = Python Start!
+</span><span class="k">print</span><span class="p">()</span>
+<span class="c1"># = 줄바꿈
+</span></code></pre></div></div>
+
+<h5 id="separator-옵션-사용">separator 옵션 사용</h5>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'P'</span><span class="p">,</span> <span class="s">'Y'</span><span class="p">,</span> <span class="s">'T'</span><span class="p">,</span> <span class="s">'H'</span><span class="p">,</span><span class="s">'O'</span><span class="p">,</span><span class="s">'N'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">''</span><span class="p">)</span>
+<span class="c1"># = PYTHON
+</span><span class="k">print</span><span class="p">(</span><span class="s">'010'</span><span class="p">,</span> <span class="s">'7777'</span><span class="p">,</span> <span class="s">'7777'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">'-'</span><span class="p">)</span>
+<span class="c1"># = 010-7777-7777
+</span><span class="k">print</span><span class="p">(</span><span class="s">'python'</span><span class="p">,</span> <span class="s">'google.com'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">'@'</span><span class="p">)</span>
+<span class="c1"># = python@google.com
+</span></code></pre></div></div>
+
+<h5 id="end-옵션-사용">end 옵션 사용</h5>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'Welcome To'</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">' '</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'IT News'</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">' '</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'Web Site'</span><span class="p">)</span>
+<span class="c1"># = Welcome To IT News Web Site
+</span></code></pre></div></div>
+
+<h5 id="file-옵션-사용">file 옵션 사용</h5>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">'Learn Python'</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">stdout</span><span class="p">)</span>
+<span class="c1">#전자의 내용을 후자의 파일에 저장
+</span></code></pre></div></div>
+
+<h5 id="format-옵션-사용d-s-f">format 옵션 사용(d, s, f)`</h5>
+
+<p>d (digit) : 3</p>
+
+<p>s (string) : ‘python’</p>
+
+<p>f (float) : 3.141519 …</p>
+
+<h4 id="s">%s</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'%s %s'</span> <span class="o">%</span> <span class="p">(</span><span class="s">'one'</span><span class="p">,</span> <span class="s">'two'</span><span class="p">))</span>
+<span class="c1"># = one two
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{} {}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'one'</span><span class="p">,</span> <span class="s">'two'</span><span class="p">))</span>
+<span class="c1"># = one two
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{} {}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'one'</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="c1">#.format 함수가 조금 더 유연함
+# = one 2
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{1} {0}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'one'</span><span class="p">,</span> <span class="s">'two'</span><span class="p">))</span> <span class="c1">#index 번호가 0부터 시작하기에 순서가 바뀌어서 출력됨
+# = two one
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'%10s'</span> <span class="o">%</span> <span class="p">(</span><span class="s">'nice'</span><span class="p">))</span> <span class="c1">#10개의 자릿수 중 문자열이 자리 차지
+# =       nice
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{:&gt;10}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'nice'</span><span class="p">))</span> <span class="c1">#인위적으로 10자리의 문자열 확보
+# =       nice
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'%-10s'</span> <span class="o">%</span> <span class="p">(</span><span class="s">'nice'</span><span class="p">))</span>
+<span class="c1"># = nice
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{:10}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'nice'</span><span class="p">))</span> <span class="c1">#반대의 경우로 10자리 확보하여 앞에서부터 출력
+# = nice
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'{:_&gt;10}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'nice'</span><span class="p">))</span> <span class="c1">#앞에 언더바 출력, 총 자릿수는 10개
+# = ______nice
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{:^10}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="s">'nice'</span><span class="p">))</span> <span class="c1">#중앙 정렬
+# = |   nice   |
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'%.5s'</span> <span class="o">%</span><span class="p">(</span><span class="s">'nice'</span><span class="p">))</span>
+<span class="c1"># = nice
+</span><span class="k">print</span><span class="p">(</span><span class="s">'%.5s'</span> <span class="o">%</span><span class="p">(</span><span class="s">'pythonstudy'</span><span class="p">))</span> <span class="c1">#자릿수를 초과하면 지정 자릿수까지의 문자열만 출력
+# = pytho
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{:10.5}'</span> <span class="o">%</span><span class="p">(</span><span class="s">'pythonstudy'</span><span class="p">))</span> <span class="c1">#다른 방법
+# = pytho
+</span></code></pre></div></div>
+
+<h4 id="d">%d</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'%d %d'</span> <span class="o">%</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="c1"># = 1 2
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{} {}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="c1"># = 1 2
+</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'%4d'</span> <span class="o">%</span> <span class="p">(</span><span class="mi">42</span><span class="p">))</span>
+<span class="c1"># =  42
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{:4d}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="mi">42</span><span class="p">))</span>
+<span class="c1"># =  42
+</span></code></pre></div></div>
+
+<h4 id="f">%f</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'%f'</span> <span class="o">%</span> <span class="p">(</span><span class="mf">3.1415192930230</span><span class="p">))</span>
+<span class="c1"># = 3.141519
+</span><span class="k">print</span><span class="p">(</span><span class="s">'%06.2f'</span> <span class="o">%</span> <span class="p">(</span><span class="mf">3.141592653589793</span><span class="p">))</span> <span class="c1">#xx.yy x:정수부 자릿수 y=소수부 자릿수
+# = 003.14 #총 6개의 자릿수 중에 정수부는 1개이기 때문에 0으로 채우고, 나머지 소수부 출력
+</span><span class="k">print</span><span class="p">(</span><span class="s">'{:06.2f}'</span> <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="mf">3.141592653589793</span><span class="p">))</span>
+<span class="c1"># = 003.14 #동일하게 출력
+</span></code></pre></div></div>
+
+<p>문자열을 제외한 %d 정수, %f 소수는 신경써야 함
+%f 소수의 경우 정수부, 소수부의 자릿수에 유의</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#py" class="page__taxonomy-item" rel="tag">py</a><span class="sep">, </span>
+    
+      <a href="/tags/#study" class="page__taxonomy-item" rel="tag">study</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#py" class="page__taxonomy-item" rel="tag">py</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2022-09-01">September 1, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/cpg/C%EC%96%B8%EC%96%B4%EA%B8%B0%EC%B4%88/" class="pagination--pager" title="C언어 기초
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="mailto:mail@namdong.dev" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://github.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/namudongs" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 NAMDONG. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'namudongs/namudongs.github.com');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'boxy-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>
