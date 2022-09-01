@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-07-17-C언어기초.md",
+            "file": "2022-09-01-파이썬기초.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-07-17-C언어기초.md",
+                "file": "2022-09-01-파이썬기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-07-17-C언어기초.md",
+                "file": "2022-09-01-파이썬기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-07-17-C언어기초.md"
+                "file": "2022-09-01-파이썬기초.md"
               }
             }
           }
@@ -130,10 +130,11 @@
   },
   "active": "7f709a13a494e5bc",
   "lastOpenFiles": [
+    "2022-07-17-C언어기초.md",
+    "2022-09-01-파이썬기초.md",
+    "prepare.md",
     "2021-06-15-개인도메인깃헙설정.md",
     "2022-03-21-깃헙페이지셋업가이드.md",
-    "2022-07-17-C언어기초.md",
-    "prepare.md",
     "2022-03-21-cpg1.md",
     "assets/img/blog/1.png.md",
     "template/md-template.md"

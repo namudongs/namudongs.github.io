@@ -1,0 +1,65 @@
+I"Q<h2 id="c언어의-특징">C언어의 특징</h2>
+
+<h3 id="c언어의-장점">C언어의 장점</h3>
+<ol>
+  <li>프로그램의 <code class="language-plaintext highlighter-rouge">효율성</code>을 높일 수 있다.</li>
+  <li><code class="language-plaintext highlighter-rouge">강력</code>하면서도 <code class="language-plaintext highlighter-rouge">유연</code>하다.</li>
+  <li><code class="language-plaintext highlighter-rouge">프로그래머 중심</code>이다.</li>
+  <li>다른 시스템으로 <code class="language-plaintext highlighter-rouge">이식</code>하기 좋다.</li>
+</ol>
+
+<h3 id="c언어가-쓰이는-곳">C언어가 쓰이는 곳</h3>
+<ol>
+  <li>Unix 운영 체제</li>
+  <li>컴퓨터 게임</li>
+  <li>루카스 필름 (스타워즈 VFX)</li>
+  <li>임베디드 시스템</li>
+  <li>자동화 공장</li>
+  <li>… ….</li>
+</ol>
+
+<h2 id="c언어의-표준">C언어의 표준</h2>
+<h3 id="kr-c-classic-c">K&amp;R C (Classic C)</h3>
+<p><code class="language-plaintext highlighter-rouge">유닉스</code>와 함께 제공된 <code class="language-plaintext highlighter-rouge">라이브러리</code>가 사실상의 표준 (FEB 22, 1978)</p>
+
+<h3 id="the-spirit-of-c">The Spirit of C</h3>
+<ol>
+  <li>프로그래머를 믿어라.</li>
+  <li>프로그래머가 필요한 일을 하는 것을 방해하지 마라.</li>
+  <li>언어를 작고 <code class="language-plaintext highlighter-rouge">단순하게 유지</code>해라.</li>
+  <li>한 연산을 할 때 단 한 가지 방법만 제공해라.</li>
+  <li>호환을 보장할 수 없다 하더라도 속도를 빠르게 해라.</li>
+</ol>
+
+<h3 id="ansiiso-c9x-committee">ANSI/ISO C9X Committee</h3>
+<ol>
+  <li>국제적인 문자 집합 추가</li>
+  <li>64비트 프로세서 대응</li>
+  <li>과학 공학 수치 계산 적합도 개선 (FORTRAN) 대체</li>
+  <li>언어를 <code class="language-plaintext highlighter-rouge">단순하게 유지</code></li>
+</ol>
+
+<p>“Committee는 <code class="language-plaintext highlighter-rouge">(C가 아닌) C++</code> 가 크고 야심찬 언어가 되는 것을 허용하는 것에 동의했다.”</p>
+
+<h3 id="the-c11-standard">The C11 Standard</h3>
+<ol>
+  <li>C99의 일부를 선택적인 기능으로 변경</li>
+  <li><code class="language-plaintext highlighter-rouge">멀티 프로세서</code> 대응 Concurrent Programming</li>
+</ol>
+
+<h3 id="the-c18-standard">The C18 Standard</h3>
+<ol>
+  <li>새로운 기능 추가 없이 C11의 결함 수정</li>
+</ol>
+
+<h2 id="소프트웨어-개발의-7가지-단계">소프트웨어 개발의 7가지 단계</h2>
+<ol>
+  <li>목적을 정의한다.</li>
+  <li>프로그램을 설계한다.</li>
+  <li>코드를 작성한다.</li>
+  <li>컴파일 한다.</li>
+  <li>실행시켜 본다.</li>
+  <li>시험해보고 오류가 있다면 수정한다.</li>
+  <li>프로그램을 유지하고 개선해 나간다.</li>
+</ol>
+:ET
