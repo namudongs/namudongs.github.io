@@ -1,0 +1,26 @@
+I"6
+<div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/cpg/C%EC%96%B8%EC%96%B4%EA%B8%B0%EC%B4%88/">C언어 기초</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.07.17
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#cpg" class="page__taxonomy-item-category" rel="tag">cpg</a>
+                    
+                    
+                    <a href="/tags/#cpg" class="page__taxonomy-item-tag" rel="tag">cpg</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+
+:ET
