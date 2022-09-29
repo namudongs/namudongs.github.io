@@ -1,0 +1,90 @@
+I"�<h1 id="notebookleetcode-1-two-sum">:notebook:LeetCode 1. Two Sum</h1>
+<h2 id="bulbproblem">:bulb:Problem:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
+정수 숫자의 배열과 정수 목표값이 주어지면 목표값에 더해지도록 두 숫자의 인덱스를 반환합니다.
+
+각 입력에 정확히 하나의 솔루션이 있다고 가정할 수 있으며, 동일한 요소를 두 번 사용할 수 없습니다.
+
+답변은 임의의 순서로 반환할 수 있습니다.
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h2 id="memoconstraints">:memo:Constraints:</h2>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="mi">2</span> <span class="o">&lt;=</span> <span class="n">nums</span><span class="p">.</span><span class="n">length</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="o">^</span><span class="mi">4</span>
+
+<span class="o">-</span><span class="mi">10</span><span class="o">^</span><span class="mi">9</span> <span class="o">&lt;=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="o">^</span><span class="mi">9</span>
+
+<span class="o">-</span><span class="mi">10</span><span class="o">^</span><span class="mi">9</span> <span class="o">&lt;=</span> <span class="n">target</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="o">^</span><span class="mi">9</span>
+
+<span class="n">Only</span> <span class="n">one</span> <span class="n">valid</span> <span class="n">answer</span> <span class="n">exists</span><span class="p">.</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h2 id="bookexamples">:book:Examples:</h2>
+<h3 id="1">1:</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h3 id="2">2:</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>Input: nums = [3,2,4], target = 6
+Output: [1,2]
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h3 id="3">3:</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>Input: nums = [3,3], target = 6
+Output: [0,1]
+</pre></td></tr></tbody></table></code></pre></div></div>
+<h2 id="keysolution">:key:Solution:</h2>
+<p><code class="language-plaintext highlighter-rouge">nums</code> 리스트 안의 두 값을 더한 값이 <code class="language-plaintext highlighter-rouge">target</code> 값을 만족하면 해당 값의 인덱스 주소를 반환하는 알고리즘입니다.<br />
+조건에 <code class="language-plaintext highlighter-rouge">하나의 유효한 솔루션</code>이 있다고 하였으므로 해당 예외는 고려하지 않아도 됩니다.</p>
+
+<h3 id="non-optimal-code">Non-Optimal Code</h3>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">15</span><span class="p">]</span>
+<span class="n">target</span> <span class="o">=</span> <span class="p">[</span><span class="mi">9</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nums</span><span class="p">))</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="o">==</span> <span class="n">target</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">nums</span><span class="p">.</span><span class="n">index</span><span class="p">())</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>위 코드는 가장 단순하게 생각해 볼 수 있는 코드로, 중첩 반복문을 이용해서 target 을 찾는 코드입니다.<br />
+이 코드도 정답이 될 수 있지만 두 개의 반복문을 사용하므로 시간 복잡도가 좋지 않습니다.</p>
+
+<h3 id="optimal-code">Optimal Code</h3>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>
+</pre></td></tr></tbody></table></code></pre></div></div>
+:ET
